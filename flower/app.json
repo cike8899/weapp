@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/topic/topic"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "imgs/icons/gift.png",
+        "selectedIconPath": "imgs/icons/gift.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "imgs/icons/airplane.png",
+        "selectedIconPath": "imgs/icons/airplane.png"
+      },
+      {
+        "pagePath": "pages/topic/topic",
+        "text": "试题",
+        "iconPath": "imgs/icons/shopping-basket.png",
+        "selectedIconPath": "imgs/icons/shopping-basket.png"
+      }
+    ]
+  }
+}
